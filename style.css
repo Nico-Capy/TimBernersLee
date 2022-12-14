@@ -1,0 +1,121 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#alt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#toc{
+    height:max-content;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid #dddddd;
+    border-radius: 0.5rem;
+    color: #145a9d;
+    background: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#print, #cite, #share, #feedback, #dots, #related{
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid #dddddd;
+    border-radius: 0.5rem;
+    color: #145a9d;
+    background: transparent;
+    vertical-align: middle;
+}
+
+#text{
+    width: 95%;
+    padding: 16px;
+    border: 2px solid #dddddd;
+    border-radius: 0.5rem;
+    margin:0px auto;
+    left:0;
+    right:0;
+}
+
+#compact{
+    position: relative;
+    margin-right: 16%;
+}
+
+#dots{
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+#related{
+    margin:0 auto;
+    display:block;
+    bottom: 6px;
+}
+
+#related:hover{
+    cursor: pointer;
+    background-color: #cfddec;
+}
+
+#print:hover{
+    cursor: pointer;
+    background-color: #cfddec;
+    opacity: 1;
+}
+
+#cite:hover{
+    cursor: pointer;
+    background-color: #cfddec;
+    opacity: 1;
+}
+
+#share:hover{
+    cursor: pointer;
+    background-color: #cfddec;
+    opacity: 1;
+}
+
+#feedback:hover{
+    cursor: pointer;
+    background-color: #cfddec;
+    opacity: 1;
+}
+
+#dots:hover{
+    cursor: pointer;
+    background-color: #cfddec;
+    opacity: 1;
+}
+
+#tim{
+    max-height:100%;
+}
+
+#tim:hover{
+    cursor: pointer;
+}
+
+#photo{
+    border: 1px solid #dddddd;
+    border-radius: 0.5rem;
+    height: max-content;
+    width: min-content;
+    vertical-align: middle;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
