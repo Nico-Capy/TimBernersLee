@@ -128,9 +128,11 @@ p{
 }
 
 #dots{
+    display: inline-flex;
     text-align: center;
-    transform: rotate(90deg);
-    height: 21px;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 #related{
