@@ -1,3 +1,57 @@
+#brit{
+    margin-top: -8px;
+    margin-left: -8px;
+    transform: translateZ(0);
+    width: 160px;
+    background-color: #071c2e;
+    color: white;
+    position: sticky;
+    z-index: 1061;
+    height: 48px;
+    width: 1280px;
+}
+
+#encic{
+    width: 123px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#premenu{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 160px;
+    width: 218.609375px;
+    max-width: 100%;
+    height: 47px;
+    position: absolute;
+    top: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu, #search{
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#menu:hover, #search:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#encic:hover{
+    cursor: pointer;
+}
+
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -31,15 +85,31 @@ p{
     margin-bottom: 20px;
 }
 
-#print, #cite, #share, #feedback, #dots, #related{
+.button{
     text-align: center;
     font-size: 1.125rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 2px solid #dddddd;
+    display: inline-flex;
+    flex-flow: row;
     border-radius: 0.5rem;
     color: #145a9d;
     background: transparent;
-    vertical-align: middle;
+    
+}
+
+.textbutton{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #text{
@@ -68,39 +138,9 @@ p{
     bottom: 6px;
 }
 
-#related:hover{
+.button:hover{
     cursor: pointer;
     background-color: #cfddec;
-}
-
-#print:hover{
-    cursor: pointer;
-    background-color: #cfddec;
-    opacity: 1;
-}
-
-#cite:hover{
-    cursor: pointer;
-    background-color: #cfddec;
-    opacity: 1;
-}
-
-#share:hover{
-    cursor: pointer;
-    background-color: #cfddec;
-    opacity: 1;
-}
-
-#feedback:hover{
-    cursor: pointer;
-    background-color: #cfddec;
-    opacity: 1;
-}
-
-#dots:hover{
-    cursor: pointer;
-    background-color: #cfddec;
-    opacity: 1;
 }
 
 #tim{
